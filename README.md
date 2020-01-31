@@ -13,9 +13,11 @@ Little web based on Django that shows a book library and whether a book is curre
 - add path to the PostgreSQL installed binaries to PATH
 - install Python
 - install venv and activate it
-- install required modules: pip install -r requirements.txt 
+- install required modules: pip install -r requirements.txt
 - migrate db: python3 manage.py migrate
 - cerate superuser: python3 manage.py createsuperuser
+- (event.) fill up your db with prepared data: python3 manage.py loaddata knihovna/data/fixture.json
+
 
 # run
 - run server: python3 manage.py runserver
