@@ -2,7 +2,7 @@
 {% block content %}
 <h2>Book detail</h2>
 <p>
-  <table border="1" width="50%">
+  <table border="1" width="75%">
     <tr>
       <td>Name</td><td><strong>{{ book.bookName }}</strong></td>
     </tr>
@@ -30,7 +30,7 @@
       <td>Date borrowed</td><td>{{ book.borrowedDate }}</td>
     </tr>
     <tr>
-      <td>Returned on</td>
+      <td>Will return on</td>
       {% if book.returnDate != None %}
         <td>
           {{ book.returnDate }}

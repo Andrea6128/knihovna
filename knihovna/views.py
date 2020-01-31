@@ -41,7 +41,7 @@ def book_borrowed_view(request):
 
 # search field view (visible on default home view)
 def book_search_view(request):
-    searchButtonData = request.GET.get('q')
+    searchButtonData = request.GET.get('query')
     searchResult = Book.objects.filter(Q(bookName__icontains=searchButtonData))
     context = { 'books': searchResult }
     return render(request, 'books/book_list.html', context)

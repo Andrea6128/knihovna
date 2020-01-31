@@ -25,7 +25,7 @@ class Book(models.Model):
     borrowedDate = models.DateField(blank=True, null=True, verbose_name=('Borrowed on'))
     returnDate = models.DateField(blank=True, null=True, verbose_name=('Will be returned on'))
 
-    # get book url by id
+    # get book url by id for use in teplates
     def getBookUrl(self):
         return reverse('book_detail_view', kwargs={'id': self.id})
 

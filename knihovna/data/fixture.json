@@ -32,7 +32,6 @@
       "bookYear": "1997-06-26",
       "bookDetail": "Harry Potter and the Philosopher's Stone is a fantasy novel written by British author J. K. Rowling. The first novel in the Harry Potter series and Rowling's debut novel, it follows Harry Potter, a young wizard who discovers his magical heritage on his eleventh birthday, when he receives a letter of acceptance to Hogwarts School of Witchcraft and Wizardry.",
       "bookWriter": 1,
-      "isBorrowed": false,
       "borrowedBy": "",
       "borrowedDate":  null,
       "returnDate": null
@@ -46,7 +45,6 @@
       "bookYear": "1987-01-01",
       "bookDetail": "Norwegian Wood is a 1987 novel by Japanese author Haruki Murakami. The novel is a nostalgic story of loss and burgeoning sexuality. It is told from the first-person perspective of Toru Watanabe, who looks back on his days as a college student living in Tokyo.",
       "bookWriter": 2,
-      "isBorrowed": false,
       "borrowedBy": "",
       "borrowedDate": null,
       "returnDate": null
@@ -60,7 +58,6 @@
       "bookYear": "1998-07-02",
       "bookDetail": "Harry Potter and the Chamber of Secrets is a fantasy novel written by British author J. K. Rowling and the second novel in the Harry Potter series. The plot follows Harry's second year at Hogwarts School of Witchcraft and Wizardry, during which a series of messages on the walls of the school's corridors warn that the \"Chamber of Secrets\" has been opened and that the \"heir of Slytherin\" would kill all pupils who do not come from all-magical families.",
       "bookWriter": 1,
-      "isBorrowed": false,
       "borrowedBy": "",
       "borrowedDate": null,
       "returnDate": null
@@ -74,7 +71,6 @@
       "bookYear": "1908-01-01",
       "bookDetail": "Anne of Green Gables is a 1908 novel by Canadian author Lucy Maud Montgomery (published as L.M. Montgomery). Written for all ages, it has been considered a classic children's novel since the mid-twentieth century. Set in the late 19th century, the novel recounts the adventures of Anne Shirley, an 11-year-old orphan girl, who is mistakenly sent to two middle-aged siblings, Matthew and Marilla Cuthbert, who had originally intended to adopt a boy to help them on their farm in the fictional town of",
       "bookWriter": 3,
-      "isBorrowed": true,
       "borrowedBy": "Jistý Štěpán",
       "borrowedDate": "2020-01-30",
       "returnDate": null
@@ -88,7 +84,6 @@
       "bookYear": "2018-04-01",
       "bookDetail": "Lethal White is preceded by The Cuckoo's Calling, The Silkworm, and Career of Evil; there are tentative plans to follow it with at least five more stories.Rowling announced completion of the manuscript on 23 March 2018, after approximately two years of writing.The book was released on 18 September 2018. The book follows the private detective Cormoran Strike and his partner Robin Ellacott and is the longest in the series thus far.",
       "bookWriter": 1,
-      "isBorrowed": true,
       "borrowedBy": "Facír Jonáš",
       "borrowedDate": "2020-01-09",
       "returnDate": null
