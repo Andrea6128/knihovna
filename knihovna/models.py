@@ -22,9 +22,8 @@ class Book(models.Model):
     bookWriter = models.ForeignKey(Author, on_delete=models.CASCADE, verbose_name=('Author\'s name'))
     bookDetail = models.TextField(max_length=500, verbose_name=('Book description'))
     borrowedBy = models.CharField(max_length=100, blank=True, null=False, verbose_name=('Borrowed by'))
-    borrowedDate = models.DateField(blank=True, null=True, verbose_name=('Borrowed date'))
-    isBorrowed = models.BooleanField(default=False, verbose_name=('Currently borrowed'))
-    returnDate = models.DateField(blank=True, null=True, verbose_name=('Return date'))
+    borrowedDate = models.DateField(blank=True, null=True, verbose_name=('Borrowed on'))
+    returnDate = models.DateField(blank=True, null=True, verbose_name=('Will be returned on'))
 
     # get book url by id
     def getBookUrl(self):

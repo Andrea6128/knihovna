@@ -18,7 +18,7 @@
   </table>
 </p>
 <h2>Status</h2>
-{% if book.isBorrowed == False %}
+{% if book.borrowedDate == None %}
   The book is currently in the library (not borrowed)
 {% else %}
 <p>
@@ -30,27 +30,17 @@
       <td>Date borrowed</td><td>{{ book.borrowedDate }}</td>
     </tr>
     <tr>
-      <td>Is borrowed now</td>
-      <td>
-        {% if isBorrowed == False %}
-          No
-        {% else %}
-          Yes
-        {% endif %}
-      </td>
-    </tr>
-    {% if book.isBorrowed %}
-    <tr>
       <td>Returned on</td>
-      <td>
-        {% if not returnDate %}
-          not yet returned
-        {% else %}
-          {{ returnDate }}
-        {% endif %}
+      {% if book.returnDate != None %}
+        <td>
+          {{ book.returnDate }}
         </td>
+      {% else %}
+        <td>
+          unknown
+        </td>
+      {% endif %}
     </tr>
-    {% endif %}
   </table>
 </p>
 {% endif %}
