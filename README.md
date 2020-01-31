@@ -14,6 +14,7 @@ Little web based on Django that shows a book library and whether a book is curre
 - install Python
 - install venv and activate it
 - install required modules: pip install -r requirements.txt
+- edit settings.py according to your needs
 - migrate db: python3 manage.py migrate
 - cerate superuser: python3 manage.py createsuperuser
 - (event.) fill up your db with prepared data: python3 manage.py loaddata knihovna/data/fixture.json
