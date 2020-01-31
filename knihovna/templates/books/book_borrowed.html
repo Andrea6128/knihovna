@@ -1,0 +1,20 @@
+{% extends 'main.html' %}
+{% block content %}
+<h2>Borrowed books</h2>
+{% for book in books %}
+  {% if book.isBorrowed == True %}
+    <a href='{{ book.getBookUrl }}'>{{ book.bookName }}</a>
+      <ul>
+        <li>Borrowed by: <strong>{{ book.borrowedBy }}</strong></li>
+        <li>Return date:
+          {% if returnDate == Null %}
+            unknown
+          {% else %}
+            {{ book.returnDate }}
+          {% endif %}
+        </li>
+      </ul>
+    <br>
+  {% endif %}
+{% endfor %}
+{% endblock %}

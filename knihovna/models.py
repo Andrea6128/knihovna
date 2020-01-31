@@ -5,11 +5,16 @@ from django.urls import reverse
 
 # Create your models here.
 class Author(models.Model):
-    authorName = models.CharField(max_length=100)
+    authorName = models.CharField(max_length=100, verbose_name=('Author\'s name'))
+    authorDetail = models.TextField(max_length=1000, verbose_name=('Author description'))
 
     # get author url by id
-    def get_author_url(self):
+    def getAuthorUrl(self):
         return reverse('author_detail_view', kwargs={'id': self.id})
+
+    # use string values in admin section forms
+    def __str__(self):
+        return self.authorName
 
 class Book(models.Model):
     bookName = models.CharField(max_length=100, verbose_name=('Book name'))
@@ -19,8 +24,12 @@ class Book(models.Model):
     borrowedBy = models.CharField(max_length=100, blank=True, null=False, verbose_name=('Borrowed by'))
     borrowedDate = models.DateField(blank=True, null=True, verbose_name=('Borrowed date'))
     isBorrowed = models.BooleanField(default=False, verbose_name=('Currently borrowed'))
-    returnedDate = models.DateField(blank=True, null=True, verbose_name=('Return date'))
+    returnDate = models.DateField(blank=True, null=True, verbose_name=('Return date'))
 
     # get book url by id
-    def get_book_url(self):
+    def getBookUrl(self):
         return reverse('book_detail_view', kwargs={'id': self.id})
+
+    # use string values in admin section forms
+    def __str__(self):
+        return self.bookName

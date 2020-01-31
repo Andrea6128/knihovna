@@ -1,0 +1,10 @@
+{% extends 'main.html' %}
+{% block content %}
+<html>
+<h2>Welcome to My Library</h2>
+<form action="search" method='GET'>
+  <input name='q' value='{{ request.GET.q }}' placeholder='book name'>
+  <button type="submit">Search</button>
+</form>
+</html>
+{% endblock %}

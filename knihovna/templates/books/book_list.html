@@ -1,0 +1,8 @@
+{% extends 'main.html' %}
+  {% block content %}
+    <h2>List of books</h2>
+    {% for book in books %}
+      <a href='{{ book.getBookUrl }}'>{{ book.bookName }}</a>
+      <br>
+    {% endfor %}
+  {% endblock %}
