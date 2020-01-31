@@ -8,7 +8,7 @@ class Author(models.Model):
     authorName = models.CharField(max_length=100, verbose_name=('Author\'s name'))
     authorDetail = models.TextField(max_length=1000, verbose_name=('Author description'))
 
-    # get author url by id
+    # get author url by id for use in teplates
     def getAuthorUrl(self):
         return reverse('author_detail_view', kwargs={'id': self.id})
 
