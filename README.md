@@ -1,5 +1,5 @@
 # knihovna
-Little web based on Django that shows a book library and whether a book is currently borrowed.
+Little web built on Django that shows a book library and whether a book is currently borrowed.
 
 # requirements
 - Python 3.8.1
