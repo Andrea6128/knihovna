@@ -1,6 +1,6 @@
 {% extends 'main.html' %}
   {% block content %}
-    <h2>List of books</h2>
+    <h2>Library contents</h2>
     <ol>
     {% for book in books %}
       <li><a href='{{ book.getBookUrl }}'>{{ book.bookName }}</a></li>

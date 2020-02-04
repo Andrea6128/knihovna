@@ -1,6 +1,9 @@
 {% extends 'main.html' %}
 {% block content %}
   <div class="page-welcome">
+    <div class="page-welcome-image">
+      <img src="/static/images/books-clipart.png">
+    </div>
     <h2>Welcome to My Library</h2>
     <div class="page-welcome-description">
       <p>
@@ -10,7 +13,7 @@
     </div>
     <div class="search-button">
       <form action="search" method='GET'>
-        <input width="100%" name='query' value='{{ request.GET.q }}' placeholder='book name'>
+        <input width="100%" name='query' value='{{ request.GET.q }}' placeholder='Search for a book...'>
         <button type="submit">Search</button>
       </form>
     </div>

@@ -67,6 +67,71 @@
     "model": "knihovna.Book",
     "pk": 4,
     "fields": {
+      "bookName": "Harry Potter and the Prisoner of Azkaban",
+      "bookYear": "1999-07-08",
+      "bookDetail": "Harry Potter and the Prisoner of Azkaban is a fantasy novel written by British author J.K. Rowling and is the third in the Harry Potter series. The book follows Harry Potter, a young wizard, in his third year at Hogwarts School of Witchcraft and Wizardry. Along with friends Ronald Weasley and Hermione Granger, Harry investigates Sirius Black, an escaped prisoner from Azkaban, a wizard prison in the north sea, who they believe is one of Lord Voldemort's old allies.",
+      "bookWriter": 1,
+      "borrowedBy": "",
+      "borrowedDate": null,
+      "returnDate": null
+    }
+  },
+  {
+    "model": "knihovna.Book",
+    "pk": 5,
+    "fields": {
+      "bookName": "Harry Potter and the Goblet of Fire",
+      "bookYear": "2000-07-08",
+      "bookDetail": "Harry Potter and the Goblet of Fire is a fantasy book written by British author J. K. Rowling and the fourth novel in the Harry Potter series. It follows Harry Potter, a wizard in his fourth year at Hogwarts School of Witchcraft and Wizardry, and the mystery surrounding the entry of Harry's name into the Triwizard Tournament, in which he is forced to compete.",
+      "bookWriter": 1,
+      "borrowedBy": "",
+      "borrowedDate": null,
+      "returnDate": null
+    }
+  },
+  {
+    "model": "knihovna.Book",
+    "pk": 6,
+    "fields": {
+      "bookName": "Harry Potter and the Order of the Phoenix",
+      "bookYear": "2003-07-23",
+      "bookDetail": "Harry Potter and the Order of the Phoenix is a fantasy novel written by British author J. K. Rowling and the fifth novel in the Harry Potter series. It follows Harry Potter's struggles through his fifth year at Hogwarts School of Witchcraft and Wizardry, including the surreptitious return of the antagonist Lord Voldemort, O.W.L. exams, and an obstructive Ministry of Magic.",
+      "bookWriter": 1,
+      "borrowedBy": "",
+      "borrowedDate": null,
+      "returnDate": null
+    }
+  },
+  {
+    "model": "knihovna.Book",
+    "pk": 7,
+    "fields": {
+      "bookName": "Harry Potter and the Half-Blood Prince",
+      "bookYear": "2005-07-16",
+      "bookDetail": "Harry Potter and the Half-Blood Prince is a fantasy novel written by British author J.K. Rowling and the sixth and penultimate novel in the Harry Potter series. Set during Harry Potter's sixth year at Hogwarts, the novel explores the past of Harry's nemesis, Lord Voldemort, and Harry's preparations for the final battle against Voldemort alongside his headmaster and mentor Albus Dumbledore.",
+      "bookWriter": 1,
+      "borrowedBy": "",
+      "borrowedDate": null,
+      "returnDate": null
+    }
+  },
+  {
+    "model": "knihovna.Book",
+    "pk": 8,
+    "fields": {
+      "bookName": "Harry Potter and the Deathly Hallows",
+      "bookYear": "2007-07-21",
+      "bookDetail": "Harry Potter and the Deathly Hallows is a fantasy novel written by British author J. K. Rowling and the seventh and final novel of the Harry Potter series. It was released on 21 July 2007 in the United Kingdom by Bloomsbury Publishing, in the United States by Scholastic, and in Canada by Raincoast Books. The novel chronicles the events directly following Harry Potter and the Half-Blood Prince (2005) and the final confrontation between the wizards Harry Potter and Lord Voldemort.",
+      "bookWriter": 1,
+      "borrowedBy": "",
+      "borrowedDate": null,
+      "returnDate": null
+    }
+  },
+  {
+    "model": "knihovna.Book",
+    "pk": 9,
+    "fields": {
       "bookName": "Anne of Green Gables",
       "bookYear": "1908-01-01",
       "bookDetail": "Anne of Green Gables is a 1908 novel by Canadian author Lucy Maud Montgomery (published as L.M. Montgomery). Written for all ages, it has been considered a classic children's novel since the mid-twentieth century. Set in the late 19th century, the novel recounts the adventures of Anne Shirley, an 11-year-old orphan girl, who is mistakenly sent to two middle-aged siblings, Matthew and Marilla Cuthbert, who had originally intended to adopt a boy to help them on their farm in the fictional town of",
@@ -78,7 +143,7 @@
   },
   {
     "model": "knihovna.Book",
-    "pk": 5,
+    "pk": 10,
     "fields": {
       "bookName": "Lethal White",
       "bookYear": "2018-04-01",

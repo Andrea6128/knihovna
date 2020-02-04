@@ -103,16 +103,14 @@ h4, h5 {
   border: none;
 }
 
-.page-welcome {
-  background-image: url("/static/images/books-clipart.png");
-  background-size: 40%;
-  background-position: right top;
-  background-repeat: no-repeat;
+.page-welcome-image img {
+  width: 400px;
+  float: right;
+
 }
 
 .page-welcome-description {
-  width: 58%;
-  color: #946b2d;
+  width: 50%;
   font-size: 1.5rem;
   text-align: justify;
 }
