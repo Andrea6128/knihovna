@@ -23,6 +23,14 @@
       "authorDetail": "Lucy Maud Montgomery OBE (November 30, 1874 – April 24, 1942), published as L. M. Montgomery, was a Canadian author best known for a series of novels beginning in 1908 with Anne of Green Gables. The book was an immediate success. Anne Shirley, an orphaned girl, made Montgomery famous in her lifetime and gave her an international following."
     }
   },
+  {
+    "model": "knihovna.Author",
+    "pk": 4,
+    "fields": {
+      "authorName": "Hanya Yanagihara",
+      "authorDetail": "Hanya Yanagihara (born September 20, 1974) is an American novelist, editor, and travel writer. She grew up in Hawaii."
+    }
+  },
 
   {
     "model": "knihovna.Book",
@@ -152,6 +160,19 @@
       "borrowedBy": "Facír Jonáš",
       "borrowedDate": "2020-01-09",
       "returnDate": null
+    }
+  },
+  {
+    "model": "knihovna.Book",
+    "pk": 11,
+    "fields": {
+      "bookName": "A Little Life",
+      "bookYear": "2015-03-15",
+      "bookDetail": "A Little Life is a 2015 novel by American novelist Hanya Yanagihara. The novel was written over the course of eighteen months. Despite the length and difficult subject matter it became a bestseller.",
+      "bookWriter": 4,
+      "borrowedBy": "Alexandra Bečková",
+      "borrowedDate": "2019-11-27",
+      "returnDate": "2020-01-31"
     }
   }
 ]
